@@ -1,6 +1,20 @@
-﻿namespace Project_Team_One.Data;
+﻿using Project.Team.One.Domain.Catalog;
+using Microsoft.EntityFrameworkCore;
 
-public class Class1
+namespace Project.Team.One.Data
 {
+    public class StoreContext : DbContext
+    {
+        public StoreContext(DbContextOptions<StoreContext> options)
+            : base(options)
+            {}
 
+            public DbSet<Item> Items { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            DbInitializer.Initialize(builder);
+        }
+    }
 }
