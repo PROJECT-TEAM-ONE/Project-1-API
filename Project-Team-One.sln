@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project-Team-One.Api", "Pro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project-Team-One.Domain", "Project-Team-One.Domain\Project-Team-One.Domain.csproj", "{26504097-64AD-4BFA-9D8A-8DBB50B8250E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project-Team-One.Data", "Project-Team-One.Data\Project-Team-One.Data.csproj", "{B8AF12F1-9DB3-4D6B-8FB5-8556312EB94B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{26504097-64AD-4BFA-9D8A-8DBB50B8250E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26504097-64AD-4BFA-9D8A-8DBB50B8250E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26504097-64AD-4BFA-9D8A-8DBB50B8250E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8AF12F1-9DB3-4D6B-8FB5-8556312EB94B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8AF12F1-9DB3-4D6B-8FB5-8556312EB94B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8AF12F1-9DB3-4D6B-8FB5-8556312EB94B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8AF12F1-9DB3-4D6B-8FB5-8556312EB94B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
