@@ -1,5 +1,6 @@
 ﻿using Project.Team.One.Domain.Catalog;
 using Microsoft.EntityFrameworkCore;
+using Project.Team.One.Domain.Orders;
 
 namespace Project.Team.One.Data
 {
@@ -10,6 +11,8 @@ namespace Project.Team.One.Data
             {}
 
             public DbSet<Item> Items { get; set; }
+
+            public DbSet<Order> Orders { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
